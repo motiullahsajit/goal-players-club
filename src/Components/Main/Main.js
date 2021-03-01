@@ -20,7 +20,7 @@ const Main = () => {
         <main className='container'>
             <div className="d-flex justify-content-center row">
                 <div className='container col-md-8 order-2'>
-                    <div className="banner my-2">
+                    <div className="banner mb-2">
                         <Banner></Banner>
                     </div>
                     <div className="players-list">
