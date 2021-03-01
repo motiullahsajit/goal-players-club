@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cart = (props) => {
+const PlayersCart = (props) => {
     const cart = props.cart;
     const totalSalary = cart.reduce((sum, player) => sum + player.salary, 0)
     return (
@@ -21,4 +21,4 @@ const Cart = (props) => {
     );
 };
 
-export default Cart;
+export default PlayersCart;
