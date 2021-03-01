@@ -4,7 +4,7 @@ const PlayersCart = (props) => {
     const cart = props.cart;
     const totalSalary = cart.reduce((sum, player) => sum + player.salary, 0)
     return (
-        <div style={{ backgroundColor: '#081F2C', color: '#fff' }} className="sticky-top p-3">
+        <div style={{ backgroundColor: '#081F2C', color: '#fff' }} className="sticky-top p-3 mt-2">
             <h1 className="text-center text-success">Your Club</h1>
             <h3>Players Added: {cart.length}</h3>
             <ul className="list-group my-4" style={{ color: '#081F2C' }}>
